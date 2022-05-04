@@ -1,0 +1,55 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.contenedor {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 75rem;
+  height: 31.25rem;
+}
+.blue {
+  display: flex;
+  justify-content: space-between;
+}
+.boton1 {
+  background-color: blue;
+  margin: auto;
+  margin: 150px 50px 0px 50px;
+  height: 244px;
+  width: 244px;
+}
+
+.pink {
+  display: flex;
+  justify-content: space-between;
+}
+.pink1 {
+  background: #ff6666;
+  margin: auto;
+  margin: 150px 50px 0px 50px;
+  width: 402px;
+  height: 244px;
+}
+
+.back {
+  background: #46599c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin: 150px 50px 0px 50px;
+  border: 1px solid #000000;
+}
+.ulti {
+  background: #de8080;
+  margin: 50px;
+  width: 50%;
+  height: 244px;
+}

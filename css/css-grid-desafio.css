@@ -1,0 +1,67 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+header {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 75rem;
+  height: 31.25rem;
+}
+.navegacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(189, 189, 189);
+  height: 5rem;
+}
+.logo {
+  display: grid;
+  justify-content: center;
+
+  width: 10.313rem;
+  height: 3.938rem;
+  left: 12.5rem;
+  top: 1.625rem;
+
+  background: #ff6060;
+}
+.logo a {
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+.navs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb(170, 170, 170);
+  width: 20.938rem;
+  height: 3.938rem;
+  left: 29.625rem;
+  top: 1.5rem;
+}
+.botom {
+  width: 10.125rem;
+  height: 3.688rem;
+  left: 57.375rem;
+  top: 1.75rem;
+
+  background: #b352ff;
+}
+.navs a {
+  text-decoration: none;
+  color: black;
+}
+.botom a {
+  text-decoration: none;
+  color: black;
+}

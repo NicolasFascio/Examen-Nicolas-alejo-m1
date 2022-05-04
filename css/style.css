@@ -1,0 +1,34 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: black;
+}
+.todo {
+  display: grid;
+  gap: 3rem;
+}
+.flex {
+  display: grid;
+  justify-content: center;
+  gap: 3rem;
+}
+.flex a {
+  text-decoration: none;
+  color: white;
+}
+.grid {
+  display: grid;
+  justify-content: center;
+  gap: 3rem;
+}
+.grid a {
+  text-decoration: none;
+  color: white;
+}
